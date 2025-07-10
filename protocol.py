@@ -2,7 +2,6 @@
 
 LENGTH_FIELD_SIZE = 4
 PORT = 8820
-dsds
 
 def check_cmd(cmd):
     """
