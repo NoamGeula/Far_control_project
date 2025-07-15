@@ -8,7 +8,7 @@ import mouse
 import base64
 import time
 import threading
-IP = '127.0.0.1'
+IP = '192.168.7.19'
 #TCP_PORT = 5000 
 PHOTO_PATH = "d:\מועדון המתכנתים\screenshots_for_playing_screen.png"
 
