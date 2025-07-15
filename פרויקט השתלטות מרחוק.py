@@ -10,7 +10,7 @@ import time
 from tkinter import *
 import base64
 SAVED_PHOTO_LOCATION = "d:\מועדון המתכנתים\screenshots_for_playing_screen"
-IP = '127.0.0.1'
+IP = '192.168.7.6'
 #TCP_PORT = 5000 
 
 def new_key(event):
