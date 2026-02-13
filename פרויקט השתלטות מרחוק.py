@@ -41,8 +41,8 @@ def serverME():
         x, y = pyautogui.position()
         packet = protocol.create_msg([x,y])
         client_socket.send(packet)
-    listener1 = mouse.Listener(on_move=mousemove)
-    listener1.start()
+    listener1 = mouse.Listener(on_move=mousemove) #לדעתי זה תוקע את הקוד כי זה לא ימשיך למטה, צריך נראה לי לעשות בטרד לבד
+    listener1.start()#גם זה
 
     def mouseclick():
         client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  ;  
